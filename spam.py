@@ -10,6 +10,6 @@ for i in range(tm):
         print("Only Interger")
     else:
         pyautogui.type(text)
-        time.sleel(1)
+        time.sleep(1)
         pyautogui.press("ENTER")
         print(Fore.GREEN + "Message Sended")
